@@ -1,0 +1,21 @@
+{
+  "name": "esgi---formation-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.mjs --ignore 'products.json'",
+    "start": "node index.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0"
+  }
+}
