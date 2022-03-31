@@ -14,5 +14,13 @@
   {
     "name": "cerises",
     "quantity": 10
+  },
+  {
+    "name": "mangue",
+    "quantity": 10
+  },
+  {
+    "name": "poire",
+    "quantity": 20
   }
 ]
