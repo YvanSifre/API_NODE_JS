@@ -1,7 +1,7 @@
 import express from "express";
 const router = express.Router();
 
-import { add, getAll, getByName, remove } from "./server/products.mjs";
+import { add, getAll, getByName, remove } from "./products.mjs";
 
 // add
 router.post("/products", (req, res) => {

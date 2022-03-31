@@ -1,0 +1,9 @@
+{
+  "name": "esgi-cours-nodejs",
+  "version": "1.0.0",
+  "scripts": {
+    "postinstall": "npm install --prefix server"
+  },
+  "author": "",
+  "license": "ISC"
+}

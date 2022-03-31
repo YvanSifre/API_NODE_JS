@@ -7,7 +7,7 @@ let products = [];
  */
 const loadProducts = () => {
   try {
-    const data = fs.readFileSync("./server/products.json", "utf8");
+    const data = fs.readFileSync("./products.json", "utf8");
     products = JSON.parse(data);
   } catch (err) {
     console.error(`loadProducts > ${err}`);
@@ -19,7 +19,7 @@ const loadProducts = () => {
  */
 const writeProducts = () => {
   try {
-    fs.writeFileSync("./server/products.json", JSON.stringify(products, null, 2));
+    fs.writeFileSync("./products.json", JSON.stringify(products, null, 2));
   } catch (err) {
     console.error(`writeProducts > ${err}`);
   }

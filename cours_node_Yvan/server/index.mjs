@@ -2,7 +2,7 @@ import express from "express";
 import morgan from "morgan";
 import bodyParser from "body-parser";
 
-import router from "./server/routes.mjs";
+import router from "./routes.mjs";
 
 // APP
 const app = express();
