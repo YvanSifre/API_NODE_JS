@@ -5,18 +5,26 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon index.mjs --ignore 'products.json'",
-    "start": "node index.mjs"
+    "dev": "nodemon index.mjs --ignore products.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint *.mjs",
+    "lint:fix": "eslint *.mjs --fix"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "body-parser": "^1.19.2",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.6.1",
+    "swagger-ui-express": "^4.3.0"
   },
   "dependencies": {
-    "body-parser": "^1.19.1",
-    "express": "^4.17.2",
-    "morgan": "^1.10.0",
-    "swagger-ui-express": "^4.3.0"
+    "express": "^4.17.3"
   }
 }
