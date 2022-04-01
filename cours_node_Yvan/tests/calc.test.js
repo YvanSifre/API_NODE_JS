@@ -12,4 +12,4 @@ test('Soustraction : 7-4', () => {
 
 test('Multiplication : 3*4', () => {
     expect(Multiply(3, 4)).toBe(12);
-}); 
+});

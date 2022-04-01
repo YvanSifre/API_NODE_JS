@@ -8,6 +8,9 @@ let products = [];
 const loadProducts = () => {
   try {
     const data = fs.readFileSync("./products.json", "utf8");
+
+    //Decommenter la ligne pour effectuer le test et commenter la première
+    //const data = fs.readFileSync("../server/products.json", "utf8");
     products = JSON.parse(data);
   } catch (err) {
     console.error(`loadProducts > ${err}`);
